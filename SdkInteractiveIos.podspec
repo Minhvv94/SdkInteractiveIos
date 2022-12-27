@@ -34,7 +34,6 @@ Pod::Spec.new do |spec|
         
   # 8
   spec.source_files = "SdkInteractiveIos.framework/Headers/*.h"
-  spec.preserve_paths = "SdkInteractiveIos.framework",
   # spec.public_header_files = "Headers/**/*.h"
 
   # 10
