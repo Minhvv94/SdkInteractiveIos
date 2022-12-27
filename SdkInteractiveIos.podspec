@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://www.vtvlive.vn/"
 
   # 6  Source Code
-  spec.source       = { :get => "https://github.com/Minhvv94/SdkInteractiveIos.git", :tag = '1.0.1'}
+  spec.source       = { :get => "https://github.com/Minhvv94/SdkInteractiveIos.git", :tag = spec.version }
 
 
   spec.dependency 'Socket.IO-Client-Swift', '15.0'
