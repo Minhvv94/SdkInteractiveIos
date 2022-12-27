@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://www.vtvlive.vn/"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.source       = { :https => "https://cdn.onplay.live/sdk/ios/latest/SdkInteractiveIos.framework.zip", :tag => "1.0.1" }
+  spec.source       = { :git => "https://github.com/Minhvv94/SdkInteractiveIos.git", :tag => "1.0.1" }
 
 
   # spec.public_header_files = "Classes/**/*.h"
