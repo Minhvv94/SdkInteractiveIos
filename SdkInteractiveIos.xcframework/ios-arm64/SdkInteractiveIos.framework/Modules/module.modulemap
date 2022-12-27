@@ -1,0 +1,11 @@
+framework module SdkInteractiveIos {
+  umbrella header "SdkInteractiveIos.h"
+
+  export *
+  module * { export * }
+}
+
+module SdkInteractiveIos.Swift {
+    header "SdkInteractiveIos-Swift.h"
+    requires objc
+}

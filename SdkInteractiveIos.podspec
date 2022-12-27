@@ -1,10 +1,3 @@
-#
-#  Be sure to run `pod spec lint SdkInteractiveIos.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-#  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
 
 Pod::Spec.new do |spec|
 
@@ -28,7 +21,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://www.vtvlive.vn/"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.source       = { :git => "https://github.com/Minhvv94/SdkInteractiveIos.git", :tag => "1.0.1" }
+  spec.source       = { :https => "https://cdn.onplay.live/sdk/ios/latest/SdkInteractiveIos.framework.zip", :tag => "1.0.1" }
 
 
   # spec.public_header_files = "Classes/**/*.h"
