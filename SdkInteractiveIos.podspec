@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.platform = :ios
   spec.ios.deployment_target = '12.0'
   spec.name         = "SdkInteractiveIos"
-  spec.summary      = "A short description of SdkInteractiveIos."
+  spec.summary      = "it is SdkInteractiveIos."
   
   spec.requires_arc = true
   
@@ -16,13 +16,13 @@ Pod::Spec.new do |spec|
   spec.license = { :type => "MIT" }
 
   # 4 - Replace with your name and e-mail address
-  spec.author             = { "Minhvu6533" => "minhvv@vtvlive.vn" }
+  spec.author             = { "MinhVu" => "minhvv@vtvlive.vn" }
   
   # 5 -
   spec.homepage     = "https://www.vtvlive.vn/"
 
   # 6  Source Code
-  spec.source       = { :git => "https://github.com/Minhvv94/SdkInteractiveIos.git", :tag => spec.version.to_s }
+  spec.source       = { :get => "https://github.com/Minhvv94/SdkInteractiveIos.git", :tag = '1.0.1'}
 
 
   spec.dependency 'Socket.IO-Client-Swift', '15.0'
@@ -33,13 +33,11 @@ Pod::Spec.new do |spec|
 
         
   # 8
-  spec.source_files = "SdkInteractiveIos.framework/Headers/*.{h}"
-  spec.vendored_frameworks = "SdkInteractiveIos.framework"
+  # spec.source_files = "SdkInteractiveIos.framework/Headers/*.{h}"
+  spec.vendored_frameworks = "SdkInteractiveIos.xcframework"
 
   # 10
   spec.swift_version = "5.0"
-  
-  spec.module_name  = 'SdkInteractiveIos'
   
   spec.library = 'swift'
 
