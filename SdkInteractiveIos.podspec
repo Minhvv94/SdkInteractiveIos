@@ -38,7 +38,6 @@ Pod::Spec.new do |spec|
 
   # 10
   spec.swift_version = "5.0"
-  
-  spec.library = 'swift'
+
 
 end
