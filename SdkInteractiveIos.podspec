@@ -26,7 +26,6 @@ Pod::Spec.new do |spec|
 
   # spec.public_header_files = "Classes/**/*.h"
 
-  spec.framework = "UIKit"
   spec.dependency 'Socket.IO-Client-Swift', '15.0'
   spec.dependency 'Alamofire', '5.6.2'
   spec.dependency 'SwiftyJSON'
