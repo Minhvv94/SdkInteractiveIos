@@ -36,12 +36,11 @@ Pod::Spec.new do |spec|
   spec.source_files = "Headers/**/*.h"
   # spec.public_header_files = "Headers/**/*.h"
 
-  # 9
-  # s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
-
   # 10
   spec.swift_version = "5.0"
   
   spec.module_name  = 'SdkInteractiveIos'
+  
+  spec.library = 'swift'
 
 end
