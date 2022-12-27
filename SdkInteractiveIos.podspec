@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://www.vtvlive.vn/'
   spec.author       = { "MinhVu" => "minhvv@vtvlive.vn" }
   spec.summary      = 'it is SdkInteractiveIos'
-  spec.source       = { :git => 'https://github.com/Minhvv94/SdkInteractiveIos.git', :tag => spec.version }
+  spec.source       = { :http => 'http://cdn.onplay.live/sdk/ios/latest/SdkInteractiveIos.framework.zip' }
   spec.source_files = 'SdkInteractiveIos.framework/Headers/*.{h}'
   spec.swift_version = '5.0'
   spec.swift_versions = '5.0'
