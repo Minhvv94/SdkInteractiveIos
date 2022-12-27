@@ -12,10 +12,7 @@ Pod::Spec.new do |spec|
   spec.version      = "1.0.1"
   
   # 3
-  spec.license = { :type => "MIT", :text => <<-LICENSE
-                   Copyright 2022
-                   Permission is granted to...
-                 LICENSE }
+  spec.license = { :type => "MIT" }
 
   # 4 - Replace with your name and e-mail address
   spec.author             = { "Minhvu6533" => "minhvv@vtvlive.vn" }
