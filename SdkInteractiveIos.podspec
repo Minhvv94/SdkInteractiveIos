@@ -33,8 +33,8 @@ Pod::Spec.new do |spec|
   spec.dependency 'RxCocoa', '6.5.0'
         
   # 8
-  spec.source_files = "SdkInteractiveIos.xcframework/**/*"
-  # spec.public_header_files = "Classes/**/*.h"
+  spec.source_files = "Headers/**/*.h"
+  # spec.public_header_files = "Headers/**/*.h"
 
   # 9
   # s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
@@ -42,6 +42,6 @@ Pod::Spec.new do |spec|
   # 10
   spec.swift_version = "5.0"
   
-  spec.vendored_frameworks = 'SdkInteractiveIos.xcframework'
+  spec.module_name  = 'SdkInteractiveIos'
 
 end
