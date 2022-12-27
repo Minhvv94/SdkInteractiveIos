@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/Minhvv94/SdkInteractiveIos.git', :tag => spec.version }
   spec.source_files = 'SdkInteractiveIos.framework/Headers/*.{h}'
  
-  spec.dependency 'Socket.IO-Client-Swift', '15.0'
+  spec.dependency 'Socket.IO-Client-Swift', '~> 15.0'
   spec.dependency 'Alamofire', '5.6.2'
   spec.dependency 'SwiftyJSON'
   spec.dependency 'RxSwift', '6.5.0'
