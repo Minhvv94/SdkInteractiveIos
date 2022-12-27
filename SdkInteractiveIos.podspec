@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
   spec.dependency 'Socket.IO-Client-Swift', '~> 15.0'
   spec.dependency 'Alamofire', '~> 5.6.2'
   spec.dependency 'SwiftyJSON'
-  spec.dependency 'RxSwift', '~> 6.5.0'
-  spec.dependency 'RxCocoa', '~> 6.5.0'
+  spec.dependency 'RxSwift', '6.5.0'
+  spec.dependency 'RxCocoa', '6.5.0'
 end
