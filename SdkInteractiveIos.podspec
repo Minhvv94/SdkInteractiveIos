@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
   spec.platform = :ios
   spec.ios.deployment_target = '12.0'
-  spec.name         = "SdkInteractiveIos.framework"
+  spec.name         = "SdkInteractiveIos.xcframework"
 
   spec.summary      = "A short description of SdkInteractiveIos."
   
@@ -43,6 +43,6 @@ Pod::Spec.new do |spec|
   # 10
   spec.swift_version = "5.0"
   
-  spec.vendored_frameworks = 'SdkInteractiveIos.framework'
+  spec.vendored_frameworks = 'SdkInteractiveIos.xcframework'
 
 end
