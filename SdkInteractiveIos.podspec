@@ -17,11 +17,11 @@ Pod::Spec.new do |spec|
   # 4 - Replace with your name and e-mail address
   spec.author             = { "Minhvu6533" => "minhvv@vtvlive.vn" }
   
-  # 5 - Replace this URL with your own GitHub page's URL (from the address bar)
+  # 5 -
   spec.homepage     = "https://www.vtvlive.vn/"
 
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.source       = { :git => "https://github.com/Minhvv94/SdkInteractiveIos.git", :tag => "1.0.1" }
+  # 6  Source Code
+  spec.source       = { :git => "https://github.com/Minhvv94/SdkInteractiveIos.git", :tag => spec.version.to_s }
 
 
   # spec.public_header_files = "Classes/**/*.h"
