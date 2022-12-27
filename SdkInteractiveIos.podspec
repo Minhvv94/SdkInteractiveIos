@@ -34,7 +34,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'RxCocoa', '6.5.0'
         
   # 8
-  spec.source_files = "SdkInteractiveIos.framework/*"
+  spec.source_files = "SdkInteractiveIos/*"
   # spec.public_header_files = "Classes/**/*.h"
 
   # 9
