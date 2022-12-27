@@ -31,10 +31,12 @@ Pod::Spec.new do |spec|
   spec.dependency 'SwiftyJSON'
   spec.dependency 'RxSwift', '6.5.0'
   spec.dependency 'RxCocoa', '6.5.0'
+  
+  spec.frameworks 'UIKit'
         
   # 8
-  spec.source_files = "SdkInteractiveIos.framework/Headers/*.h"
-  # spec.public_header_files = "Headers/**/*.h"
+  spec.source_files = "SdkInteractiveIos.framework/Headers/*.{h}"
+  spec.vendored_frameworks = "SdkInteractiveIos.framework"
 
   # 10
   spec.swift_version = "5.0"
