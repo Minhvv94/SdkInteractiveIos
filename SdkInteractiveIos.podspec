@@ -5,8 +5,9 @@ Pod::Spec.new do |spec|
   spec.platform = :ios
   spec.ios.deployment_target = '12.0'
   spec.name         = "SdkInteractiveIos"
-
   spec.summary      = "A short description of SdkInteractiveIos."
+  
+  spec.requires_arc = true
   
   # 2
   spec.version      = "1.0.1"
@@ -23,8 +24,6 @@ Pod::Spec.new do |spec|
   # 6  Source Code
   spec.source       = { :git => "https://github.com/Minhvv94/SdkInteractiveIos.git", :tag => spec.version.to_s }
 
-
-  # spec.public_header_files = "Classes/**/*.h"
 
   spec.dependency 'Socket.IO-Client-Swift', '15.0'
   spec.dependency 'Alamofire', '5.6.2'
