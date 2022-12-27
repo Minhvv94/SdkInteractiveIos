@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "A short description of SdkInteractiveIos."
   
   # 2
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.1"
   
   # 3
   spec.license = { :type => "MIT", :file => "LICENSE" }
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://www.vtvlive.vn/"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.source       = { :git => "http://EXAMPLE/SdkInteractiveIos.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Minhvv94/SdkInteractiveIos.git", :tag => "#{spec.version}" }
 
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -41,13 +41,14 @@ Pod::Spec.new do |spec|
   spec.dependency 'RxCocoa', '6.5.0'
         
   # 8
-  s.source_files = "SdkInteractiveIos/**/*.{swift}"
+  spec.source_files = "SdkInteractiveIos.framework/*"
+  # spec.public_header_files = "Classes/**/*.h"
 
   # 9
   # s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
   # 10
-  s.swift_version = "5.0"
+  spec.swift_version = "5.0"
   
   spec.vendored_frameworks = 'SdkInteractiveIos.framework'
 
