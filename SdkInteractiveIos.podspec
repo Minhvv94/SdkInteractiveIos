@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
 
   spec.platform = :ios
   spec.ios.deployment_target = '12.0'
-  spec.name         = "SdkInteractiveIos"
+  spec.name         = "SdkInteractiveIos.framework"
 
   spec.summary      = "A short description of SdkInteractiveIos."
   
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://www.vtvlive.vn/"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.source       = { :git => "https://github.com/Minhvv94/SdkInteractiveIos.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Minhvv94/SdkInteractiveIos.git", :tag => "1.0.1" }
 
 
   # spec.public_header_files = "Classes/**/*.h"
